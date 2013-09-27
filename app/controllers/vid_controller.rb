@@ -1,9 +1,9 @@
 class VidController < ApplicationController
   def index
-    @DataB = Urbd.all
+    @DataB = Urdb.all
   end
 
   def showIndi
-    @vid = Urbd.find(params[:id])r
+    @vid = Urdb.find(params[:id])
   end
 end

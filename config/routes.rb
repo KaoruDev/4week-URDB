@@ -6,5 +6,4 @@ URDB2::Application.routes.draw do
 
   get "/vid/:id" => "vid#showIndi", as: "indi"
 
-
 end
