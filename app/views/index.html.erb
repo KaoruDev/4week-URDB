@@ -1,0 +1,7 @@
+<h1>List of awesome Movies + Trailers</h1>
+
+<ul>
+<% @DataB.each do |vid| %>
+<li><%= link_to vid[:title], indi_path(id: vid[:id]) %></li>
+<% end %>
+</ul>
