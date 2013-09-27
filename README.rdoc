@@ -1,0 +1,7 @@
+== README
+
+# MakerSquare Practice Project 4
+
+Ruby v 2.0 & Rails 4.0
+
+Lists 10 movies each having a profile page with a movie title a gif, a movie trailer and description.
