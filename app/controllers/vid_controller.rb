@@ -1,0 +1,3 @@
+class VidController < ApplicationController
+
+end
