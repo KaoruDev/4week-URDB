@@ -1,0 +1,8 @@
+<h1><%= link_to "URBD", home_path %></h1>
+<h2><%= @vid.title %></h2>
+
+<%= image_tag @vid.gif %>
+
+<iframe width="420" height="315" src="//www.youtube.com/embed/<%= @vid.youtube_id %>" frameborder="0" allowfullscreen></iframe>
+
+<p><%= @vid.desc %></p>
