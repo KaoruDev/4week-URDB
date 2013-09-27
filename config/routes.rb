@@ -6,4 +6,7 @@ URDB2::Application.routes.draw do
 
   get "/vid/:id" => "vid#showIndi", as: "indi"
 
+  get "/vid/add" => "vid#add", as: "add"
+  post "/vid/added" => "vid#add_new", as: "record"
+
 end
