@@ -1,0 +1,8 @@
+<h1>Add a new title!</h1>
+
+<%= form_for @vid, url: {:action => "add_new"} do |f|%>
+	Movie Title: <%= f.text_field :title %> <br>
+	Movie Gif: <%= f.text_field :gif %> <br>
+	Movie Youtube ID: <%= f.text_field :youtube_id %> <br>
+	Movie Description: <%= f.text_field :desc %> <br>
+<% end %>
